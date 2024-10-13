@@ -1,0 +1,61 @@
+.formdata {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input_fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.key {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.key::placeholder {
+    color: #000;
+}
+
+.key:focus::placeholder {
+    color: #000;
+    top: -18px;
+    font-size: 0px;
+    transition: 0.6s;
+}
+.key:focus {
+    background-color: #DCDCDC;
+    border-radius: 6px;
+}
+
+
+.decrypt {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    border-width: 1px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.decrypt:hover {
+    background-color: #DCDCDC;
+    transition: 0.3s;
+}
+
+.incontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
